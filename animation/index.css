@@ -1,0 +1,50 @@
+@keyframes fade{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: green;
+    }
+}
+@-webkit-keyframes fade{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: green;
+    }
+}
+@-o-keyframes fade{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: green;
+    }
+}
+@-moz-keyframes fade{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: green;
+    }
+}
+
+.box{
+    border:1px solid #000;
+    -webkit-animation-name: fade;
+    -moz-animation-name: fade;
+    -o-animation-name: fade;
+    animation-name: fade;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
